@@ -15,7 +15,6 @@ services:
       - "3888:3888"
     extra_hosts:
       - "kafka-1:192.168.1.6"
-      - "fastdevelopments.net:192.168.1.10"
     environment:
       ZOOKEEPER_SERVER_ID: 1
       ZOOKEEPER_QUORUM_LISTEN_ON_ALL_IPS: 'true'
